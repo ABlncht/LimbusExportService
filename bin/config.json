@@ -1,0 +1,9 @@
+{
+  "ExportFolder": "C:\\Users\\utilisateur\\Desktop\\EXPORT",
+  "DicomFolder": "\\\\votre\\chemin\\reseau\\DICOM",
+  "ArchiveFolder": "C:\\Users\\utilisateur\\Desktop\\IMPORT\\ARCHIVE",
+  "ImportFolder": "C:\\Users\\utilisateur\\Desktop\\IMPORT",
+  "FileNameRegexPattern": "^limbus_[^_]+_([A-Za-z0-9]+)(?:_[A-Za-z0-9]+)*\\.dcm$",
+  "ArchiveRetentionDays": 30,
+  "EnableImportCleanup": true
+}
