@@ -209,7 +209,7 @@ namespace ExportLimbusService
                     var config = new AppConfig
                     {
                         ExportFolder = @"C:\Users\utilisateur\Desktop\EXPORT",
-                        DicomFolder = @"\\Bvnw4\users\ONCOLOGI\Physiciens\BLANCHET\Limbus\TEST_SERVICE",
+                        DicomFolder = @"\\chemin\vers\DICOM",
                         ArchiveFolder = @"C:\Users\utilisateur\Desktop\IMPORT\ARCHIVE",
                         ImportFolder = @"C:\Users\utilisateur\Desktop\IMPORT",
                         FileNameRegexPattern = @"^limbus_[^_]+_([A-Za-z0-9]+)(?:_[A-Za-z0-9]+)*\.dcm$",
@@ -537,4 +537,5 @@ namespace ExportLimbusService
         public int ArchiveRetentionDays { get; set; }
         public bool EnableImportCleanup { get; set; }
     }
+
 }
